@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <title>Document</title>
   </head>
   <body>
+    <!-- Burger Bar -->
     <header>
       <div class="header">
         <img src="images/logo.svg" alt="logo" />
         <nav class="navigation" id="navigation-bar">
-          <ul class="vertical-nav">
+          <ul class="horizontal-nav vertical-nav">
             <li><a class="nav" href="index.html">home</a></li>
             <li><a class="nav" href="#">our services</a></li>
             <li><a class="nav" href="#">about us</a></li>
@@ -28,6 +30,17 @@
         </div>
       </div>
     </header>
+    <!-- To Do List -->
+    <section>
+      <div class="list">
+        <form action="" id="form-wrapper">
+            <input type="text" class="product" placeholder="Type you product here">
+            <button class="button">add product</button>
+          </form>
+          <ul class="products-list"></ul>
+          <button class="clear">clear all</button>
+      </div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>

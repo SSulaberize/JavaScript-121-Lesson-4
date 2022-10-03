@@ -9,7 +9,7 @@ header{
     align-items: center;
     margin-top: 50px;
 }
-ul{
+.horizontal-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -40,4 +40,44 @@ ul{
 .burger{
     display: none;
     position: relative;
+}
+.button{
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    background-color: blue;
+    width: 130px;
+    height: 30px;
+}
+.clear{
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+}
+
+.fa-trash{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+
+}
+form input{
+    width: 300px;
+    height: 30px;
+    background-color: green;
+
+}
+::placeholder{
+    color: black;
+    font-size: 20px;
 }
