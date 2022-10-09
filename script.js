@@ -1,9 +1,13 @@
 // Burger Bar
 let navigationLine = document.getElementById ('navigation-bar');
 let hamburgerBar = document.getElementById ('burger-bar');
+let headerparter = document.getElementById ('headerpart');
+let middlePart = document.getElementById ('sectionPart');
 hamburgerBar.addEventListener ('click', function(){
     hamburgerBar.classList.toggle('toggle');
     navigationLine.classList.toggle('active');
+    headerparter.classList.toggle('activation');
+    middlePart.classList.toggle('slideDown')
 })
 
 // To DO List

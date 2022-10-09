@@ -30,8 +30,17 @@
         position: absolute;
         display: flex;
         flex-direction: column;
-       align-items: flex-end;
-       right: 40px;
-       top: 100px;
+       align-items: center;
+       right: 0px;
+       top: 50px;
+       width: 100%;
+       height: 200px;
+       background-color: crimson;
+    }
+    .activation.header{
+        background-color: crimson;
+    }
+    .slideDown.list{
+        margin-top: 250px;
     }
 }
